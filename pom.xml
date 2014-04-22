@@ -187,7 +187,7 @@
 
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/</url>
+		<url>http://jenkins.imagej.net/view/ImageJ/</url>
 	</ciManagement>
 
 	<properties>
