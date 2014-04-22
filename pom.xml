@@ -190,10 +190,6 @@
 		<url>http://jenkins.imagej.net/view/ImageJ/</url>
 	</ciManagement>
 
-	<properties>
-		<miglayout.version>3.7.3.1</miglayout.version>
-	</properties>
-
 	<repositories>
 		<repository>
 			<id>imagej.public</id>
