@@ -359,6 +359,35 @@
 	</dependencyManagement>
 
 	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- Eclipse-specific configuration -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>net.imagej</groupId>
+										<artifactId>imagej-maven-plugin</artifactId>
+										<versionRange>[0.1.0,)</versionRange>
+										<goals>
+											<goal>set-rootdir</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -370,6 +399,23 @@ Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
 Institute of Molecular Cell Biology and Genetics.</organizationName>
 					<projectName>ImageJ software for multidimensional image processing and analysis.</projectName>
 				</configuration>
+			</plugin>
+
+			<!-- Enable copying the artifacts and dependencies by setting
+			     the 'imagej.app.directory' property to a valid directory. -->
+			<plugin>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-maven-plugin</artifactId>
+				<version>${imagej-maven-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>copy-jars</id>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-jars</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
