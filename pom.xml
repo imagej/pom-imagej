@@ -420,4 +420,50 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 		</plugins>
 	</build>
 
+	<profiles>
+		<!-- This developer profile makes it easy to pin to SNAPSHOT versions.
+		     Add an empty dev.imagej file in your ~/.scijava directory, and
+		     dependencies will automatically update! You may also need to refresh
+		     your IDE; e.g., in Eclipse: right click, Maven > Update Project... -->
+		<profile>
+			<id>dev.imagej</id>
+			<activation>
+				<file>
+					<exists>${user.home}/.scijava/dev.imagej</exists>
+				</file>
+			</activation>
+			<properties>
+				<imagej.version>2.0.0-SNAPSHOT</imagej.version>
+				<ij1-patcher.version>0.3.3-SNAPSHOT</ij1-patcher.version>
+				<imagej-common.version>0.5.1-SNAPSHOT</imagej-common.version>
+				<imagej-launcher.version>3.0.1-SNAPSHOT</imagej-launcher.version>
+				<imagej-legacy.version>0.2.1-SNAPSHOT</imagej-legacy.version>
+				<imagej-maven-plugin.version>0.5.1-SNAPSHOT</imagej-maven-plugin.version>
+				<imagej-ops.version>0.3.1-SNAPSHOT</imagej-ops.version>
+				<imagej-plugins-commands.version>0.1.1-SNAPSHOT</imagej-plugins-commands.version>
+				<imagej-plugins-tools.version>0.1.1-SNAPSHOT</imagej-plugins-tools.version>
+				<imagej-plugins-uploader-ssh.version>0.1.1-SNAPSHOT</imagej-plugins-uploader-ssh.version>
+				<imagej-plugins-uploader-webdav.version>0.1.1-SNAPSHOT</imagej-plugins-uploader-webdav.version>
+				<imagej-ui-awt.version>0.1.1-SNAPSHOT</imagej-ui-awt.version>
+				<imagej-ui-swing.version>0.1.1-SNAPSHOT</imagej-ui-swing.version>
+				<imagej-updater.version>0.1.1-SNAPSHOT</imagej-updater.version>
+			</properties>
+			<repositories>
+				<repository>
+					<id>imagej.public</id>
+					<url>http://maven.imagej.net/content/groups/public</url>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>imagej.public</id>
+					<url>http://maven.imagej.net/content/groups/public</url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
+
 </project>
