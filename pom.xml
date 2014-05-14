@@ -225,6 +225,9 @@
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.5.0</imagej-maven-plugin.version>
 
+		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
+		<imagej-omero.version>0.1.0</imagej-omero.version>
+
 		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
 		<imagej-ops.version>0.3.0</imagej-ops.version>
 
@@ -292,6 +295,13 @@
 				<groupId>net.imagej</groupId>
 				<artifactId>imagej-legacy</artifactId>
 				<version>${imagej-legacy.version}</version>
+			</dependency>
+
+			<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-omero</artifactId>
+				<version>${imagej-omero.version}</version>
 			</dependency>
 
 			<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
@@ -439,6 +449,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-launcher.version>3.0.2-SNAPSHOT</imagej-launcher.version>
 				<imagej-legacy.version>0.2.1-SNAPSHOT</imagej-legacy.version>
 				<imagej-maven-plugin.version>0.5.1-SNAPSHOT</imagej-maven-plugin.version>
+				<imagej-omero.version>0.1.1-SNAPSHOT</imagej-omero.version>
 				<imagej-ops.version>0.3.1-SNAPSHOT</imagej-ops.version>
 				<imagej-plugins-commands.version>0.1.2-SNAPSHOT</imagej-plugins-commands.version>
 				<imagej-plugins-tools.version>0.1.2-SNAPSHOT</imagej-plugins-tools.version>
