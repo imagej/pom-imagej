@@ -444,7 +444,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 			</activation>
 			<properties>
 				<imagej.version>2.0.0-SNAPSHOT</imagej.version>
-				<ij1-patcher.version>0.4.3-SNAPSHOT</ij1-patcher.version>
+				<ij1-patcher.version>0.4.4-SNAPSHOT</ij1-patcher.version>
 				<imagej-common.version>0.5.2-SNAPSHOT</imagej-common.version>
 				<imagej-launcher.version>3.0.3-SNAPSHOT</imagej-launcher.version>
 				<imagej-legacy.version>0.3.1-SNAPSHOT</imagej-legacy.version>
