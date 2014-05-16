@@ -250,7 +250,7 @@
 		<imagej-ui-swing.version>0.4.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.3.0</imagej-updater.version>
+		<imagej-updater.version>0.3.1</imagej-updater.version>
 	</properties>
 
 	<dependencyManagement>
@@ -457,7 +457,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-plugins-uploader-webdav.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-webdav.version>
 				<imagej-ui-awt.version>0.1.2-SNAPSHOT</imagej-ui-awt.version>
 				<imagej-ui-swing.version>0.4.1-SNAPSHOT</imagej-ui-swing.version>
-				<imagej-updater.version>0.3.1-SNAPSHOT</imagej-updater.version>
+				<imagej-updater.version>0.3.2-SNAPSHOT</imagej-updater.version>
 			</properties>
 			<repositories>
 				<repository>
