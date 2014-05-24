@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>2.3</version>
+		<version>2.5</version>
 		<relativePath />
 	</parent>
 
@@ -208,10 +208,10 @@
 		<imagej.version>2.0.0-beta-8</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
-		<imagej1.version>1.48v</imagej1.version>
+		<imagej1.version>1.49a</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.4.3</ij1-patcher.version>
+		<ij1-patcher.version>0.4.4</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
 		<imagej-common.version>0.5.1</imagej-common.version>
@@ -223,7 +223,7 @@
 		<imagej-legacy.version>0.3.0</imagej-legacy.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
-		<imagej-maven-plugin.version>0.5.0</imagej-maven-plugin.version>
+		<imagej-maven-plugin.version>0.5.2</imagej-maven-plugin.version>
 
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
 		<imagej-omero.version>0.1.0</imagej-omero.version>
@@ -250,7 +250,7 @@
 		<imagej-ui-swing.version>0.4.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.3.1</imagej-updater.version>
+		<imagej-updater.version>0.3.2</imagej-updater.version>
 	</properties>
 
 	<dependencyManagement>
@@ -444,11 +444,11 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 			</activation>
 			<properties>
 				<imagej.version>2.0.0-SNAPSHOT</imagej.version>
-				<ij1-patcher.version>0.4.4-SNAPSHOT</ij1-patcher.version>
+				<ij1-patcher.version>0.4.5-SNAPSHOT</ij1-patcher.version>
 				<imagej-common.version>0.5.2-SNAPSHOT</imagej-common.version>
 				<imagej-launcher.version>3.0.3-SNAPSHOT</imagej-launcher.version>
 				<imagej-legacy.version>0.3.1-SNAPSHOT</imagej-legacy.version>
-				<imagej-maven-plugin.version>0.5.1-SNAPSHOT</imagej-maven-plugin.version>
+				<imagej-maven-plugin.version>0.5.3-SNAPSHOT</imagej-maven-plugin.version>
 				<imagej-omero.version>0.1.1-SNAPSHOT</imagej-omero.version>
 				<imagej-ops.version>0.3.1-SNAPSHOT</imagej-ops.version>
 				<imagej-plugins-commands.version>0.1.2-SNAPSHOT</imagej-plugins-commands.version>
@@ -457,7 +457,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-plugins-uploader-webdav.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-webdav.version>
 				<imagej-ui-awt.version>0.1.2-SNAPSHOT</imagej-ui-awt.version>
 				<imagej-ui-swing.version>0.4.1-SNAPSHOT</imagej-ui-swing.version>
-				<imagej-updater.version>0.3.2-SNAPSHOT</imagej-updater.version>
+				<imagej-updater.version>0.3.3-SNAPSHOT</imagej-updater.version>
 			</properties>
 			<repositories>
 				<repository>
