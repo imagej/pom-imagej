@@ -211,7 +211,7 @@
 		<imagej1.version>1.49a</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.5.0</ij1-patcher.version>
+		<ij1-patcher.version>0.6.0</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
 		<imagej-common.version>0.5.2</imagej-common.version>
@@ -247,10 +247,10 @@
 		<imagej-ui-awt.version>0.1.1</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.4.1</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.4.2</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.3.3</imagej-updater.version>
+		<imagej-updater.version>0.3.4</imagej-updater.version>
 	</properties>
 
 	<dependencyManagement>
@@ -444,8 +444,8 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 			</activation>
 			<properties>
 				<imagej.version>2.0.0-SNAPSHOT</imagej.version>
-				<ij1-patcher.version>0.5.1-SNAPSHOT</ij1-patcher.version>
-				<imagej-common.version>0.5.3-SNAPSHOT</imagej-common.version>
+				<ij1-patcher.version>0.6.1-SNAPSHOT</ij1-patcher.version>
+				<imagej-common.version>0.6.0-SNAPSHOT</imagej-common.version>
 				<imagej-launcher.version>3.1.1-SNAPSHOT</imagej-launcher.version>
 				<imagej-legacy.version>0.4.1-SNAPSHOT</imagej-legacy.version>
 				<imagej-maven-plugin.version>0.5.3-SNAPSHOT</imagej-maven-plugin.version>
@@ -456,8 +456,8 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-plugins-uploader-ssh.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-ssh.version>
 				<imagej-plugins-uploader-webdav.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-webdav.version>
 				<imagej-ui-awt.version>0.1.2-SNAPSHOT</imagej-ui-awt.version>
-				<imagej-ui-swing.version>0.4.2-SNAPSHOT</imagej-ui-swing.version>
-				<imagej-updater.version>0.3.4-SNAPSHOT</imagej-updater.version>
+				<imagej-ui-swing.version>0.4.3-SNAPSHOT</imagej-ui-swing.version>
+				<imagej-updater.version>0.3.5-SNAPSHOT</imagej-updater.version>
 			</properties>
 			<repositories>
 				<repository>
