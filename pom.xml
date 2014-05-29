@@ -232,7 +232,7 @@
 		<imagej-ops.version>0.3.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-commands.version>0.1.1</imagej-plugins-commands.version>
+		<imagej-plugins-commands.version>0.1.2</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-tools.version>0.1.1</imagej-plugins-tools.version>
@@ -451,7 +451,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-maven-plugin.version>0.5.3-SNAPSHOT</imagej-maven-plugin.version>
 				<imagej-omero.version>0.1.1-SNAPSHOT</imagej-omero.version>
 				<imagej-ops.version>0.3.1-SNAPSHOT</imagej-ops.version>
-				<imagej-plugins-commands.version>0.1.2-SNAPSHOT</imagej-plugins-commands.version>
+				<imagej-plugins-commands.version>0.1.3-SNAPSHOT</imagej-plugins-commands.version>
 				<imagej-plugins-tools.version>0.1.2-SNAPSHOT</imagej-plugins-tools.version>
 				<imagej-plugins-uploader-ssh.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-ssh.version>
 				<imagej-plugins-uploader-webdav.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-webdav.version>
