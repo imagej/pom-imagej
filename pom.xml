@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>2.15</version>
+		<version>2.16</version>
 		<relativePath />
 	</parent>
 
@@ -211,7 +211,7 @@
 		<imagej1.version>1.49b</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.8.0</ij1-patcher.version>
+		<ij1-patcher.version>0.8.1</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
 		<imagej-common.version>0.7.2</imagej-common.version>
@@ -220,7 +220,7 @@
 		<imagej-launcher.version>3.1.1</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.5.7</imagej-legacy.version>
+		<imagej-legacy.version>0.5.8</imagej-legacy.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.5.2</imagej-maven-plugin.version>
@@ -232,7 +232,7 @@
 		<imagej-ops.version>0.4.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-commands.version>0.2.0</imagej-plugins-commands.version>
+		<imagej-plugins-commands.version>0.2.1</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-tools.version>0.1.1</imagej-plugins-tools.version>
@@ -444,14 +444,14 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 			</activation>
 			<properties>
 				<imagej.version>2.0.0-SNAPSHOT</imagej.version>
-				<ij1-patcher.version>0.8.1-SNAPSHOT</ij1-patcher.version>
+				<ij1-patcher.version>0.8.2-SNAPSHOT</ij1-patcher.version>
 				<imagej-common.version>0.7.3-SNAPSHOT</imagej-common.version>
 				<imagej-launcher.version>3.1.2-SNAPSHOT</imagej-launcher.version>
-				<imagej-legacy.version>0.5.8-SNAPSHOT</imagej-legacy.version>
+				<imagej-legacy.version>0.5.9-SNAPSHOT</imagej-legacy.version>
 				<imagej-maven-plugin.version>0.5.3-SNAPSHOT</imagej-maven-plugin.version>
 				<imagej-omero.version>0.1.1-SNAPSHOT</imagej-omero.version>
 				<imagej-ops.version>0.4.1-SNAPSHOT</imagej-ops.version>
-				<imagej-plugins-commands.version>0.2.1-SNAPSHOT</imagej-plugins-commands.version>
+				<imagej-plugins-commands.version>0.2.2-SNAPSHOT</imagej-plugins-commands.version>
 				<imagej-plugins-tools.version>0.1.2-SNAPSHOT</imagej-plugins-tools.version>
 				<imagej-plugins-uploader-ssh.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-ssh.version>
 				<imagej-plugins-uploader-webdav.version>0.1.2-SNAPSHOT</imagej-plugins-uploader-webdav.version>
