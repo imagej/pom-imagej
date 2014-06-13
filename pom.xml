@@ -214,7 +214,7 @@
 		<ij1-patcher.version>0.8.3</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.7.2</imagej-common.version>
+		<imagej-common.version>0.7.3</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>3.1.1</imagej-launcher.version>
@@ -445,7 +445,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 			<properties>
 				<imagej.version>2.0.0-SNAPSHOT</imagej.version>
 				<ij1-patcher.version>0.8.4-SNAPSHOT</ij1-patcher.version>
-				<imagej-common.version>0.7.3-SNAPSHOT</imagej-common.version>
+				<imagej-common.version>0.7.4-SNAPSHOT</imagej-common.version>
 				<imagej-launcher.version>3.1.2-SNAPSHOT</imagej-launcher.version>
 				<imagej-legacy.version>0.5.12-SNAPSHOT</imagej-legacy.version>
 				<imagej-maven-plugin.version>0.5.3-SNAPSHOT</imagej-maven-plugin.version>
