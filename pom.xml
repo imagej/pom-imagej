@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>2.18</version>
+		<version>2.19</version>
 		<relativePath />
 	</parent>
 
@@ -223,7 +223,7 @@
 		<imagej-legacy.version>0.5.14</imagej-legacy.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
-		<imagej-maven-plugin.version>0.5.2</imagej-maven-plugin.version>
+		<imagej-maven-plugin.version>0.5.3</imagej-maven-plugin.version>
 
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
 		<imagej-omero.version>0.1.0</imagej-omero.version>
@@ -448,7 +448,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-common.version>0.7.4-SNAPSHOT</imagej-common.version>
 				<imagej-launcher.version>3.1.2-SNAPSHOT</imagej-launcher.version>
 				<imagej-legacy.version>0.5.15-SNAPSHOT</imagej-legacy.version>
-				<imagej-maven-plugin.version>0.5.3-SNAPSHOT</imagej-maven-plugin.version>
+				<imagej-maven-plugin.version>0.5.4-SNAPSHOT</imagej-maven-plugin.version>
 				<imagej-omero.version>0.1.1-SNAPSHOT</imagej-omero.version>
 				<imagej-ops.version>0.4.1-SNAPSHOT</imagej-ops.version>
 				<imagej-plugins-commands.version>0.2.2-SNAPSHOT</imagej-plugins-commands.version>
