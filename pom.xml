@@ -448,7 +448,6 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-common.version>LATEST</imagej-common.version>
 				<imagej-launcher.version>LATEST</imagej-launcher.version>
 				<imagej-legacy.version>LATEST</imagej-legacy.version>
-				<imagej-maven-plugin.version>LATEST</imagej-maven-plugin.version>
 				<imagej-omero.version>LATEST</imagej-omero.version>
 				<imagej-ops.version>LATEST</imagej-ops.version>
 				<imagej-plugins-commands.version>LATEST</imagej-plugins-commands.version>
