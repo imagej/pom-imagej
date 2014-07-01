@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>2.22</version>
+		<version>2.23</version>
 		<relativePath />
 	</parent>
 
@@ -211,10 +211,10 @@
 		<imagej1.version>1.49c</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.9.1</ij1-patcher.version>
+		<ij1-patcher.version>0.10.0</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.7.6</imagej-common.version>
+		<imagej-common.version>0.8.0</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>3.1.4</imagej-launcher.version>
@@ -232,7 +232,7 @@
 		<imagej-ops.version>0.4.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-commands.version>0.2.2</imagej-plugins-commands.version>
+		<imagej-plugins-commands.version>0.2.3</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-tools.version>0.1.1</imagej-plugins-tools.version>
@@ -250,7 +250,7 @@
 		<imagej-ui-swing.version>0.4.7</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.3.9</imagej-updater.version>
+		<imagej-updater.version>0.4.0</imagej-updater.version>
 	</properties>
 
 	<dependencyManagement>
