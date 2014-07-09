@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>2.23</version>
+		<version>2.24</version>
 		<relativePath />
 	</parent>
 
@@ -208,7 +208,7 @@
 		<imagej.version>2.0.0-rc-8</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
-		<imagej1.version>1.49c</imagej1.version>
+		<imagej1.version>1.49d</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
 		<ij1-patcher.version>0.10.0</ij1-patcher.version>
