@@ -251,6 +251,9 @@
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
 		<imagej-updater.version>0.5.0</imagej-updater.version>
+
+		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
+		<imagej-usage.version>0.1.0</imagej-usage.version>
 	</properties>
 
 	<dependencyManagement>
@@ -365,6 +368,13 @@
 				<version>${imagej-updater.version}</version>
 				<classifier>tests</classifier>
 			</dependency>
+
+			<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-usage</artifactId>
+				<version>${imagej-usage.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -457,6 +467,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-ui-awt.version>LATEST</imagej-ui-awt.version>
 				<imagej-ui-swing.version>LATEST</imagej-ui-swing.version>
 				<imagej-updater.version>LATEST</imagej-updater.version>
+				<imagej-usage.version>LATEST</imagej-usage.version>
 			</properties>
 			<repositories>
 				<repository>
