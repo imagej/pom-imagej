@@ -217,10 +217,10 @@
 		<imagej-common.version>0.8.0</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
-		<imagej-launcher.version>3.1.4</imagej-launcher.version>
+		<imagej-launcher.version>3.1.5</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.6.0</imagej-legacy.version>
+		<imagej-legacy.version>0.6.1</imagej-legacy.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.5.4</imagej-maven-plugin.version>
@@ -229,7 +229,7 @@
 		<imagej-omero.version>0.1.0</imagej-omero.version>
 
 		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.4.1</imagej-ops.version>
+		<imagej-ops.version>0.4.2</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-commands.version>0.2.3</imagej-plugins-commands.version>
