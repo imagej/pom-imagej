@@ -211,7 +211,7 @@
 		<imagej1.version>1.49d</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.10.0</ij1-patcher.version>
+		<ij1-patcher.version>0.10.1</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
 		<imagej-common.version>0.8.0</imagej-common.version>
