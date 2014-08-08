@@ -217,7 +217,7 @@
 		<imagej-common.version>0.8.0</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
-		<imagej-launcher.version>3.1.5</imagej-launcher.version>
+		<imagej-launcher.version>3.1.6</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
 		<imagej-legacy.version>0.7.1</imagej-legacy.version>
