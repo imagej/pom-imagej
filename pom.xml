@@ -220,7 +220,7 @@
 		<imagej-launcher.version>3.1.6</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.7.2</imagej-legacy.version>
+		<imagej-legacy.version>0.7.3</imagej-legacy.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.5.4</imagej-maven-plugin.version>
@@ -253,7 +253,7 @@
 		<imagej-updater.version>0.6.0</imagej-updater.version>
 
 		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
-		<imagej-usage.version>0.1.0</imagej-usage.version>
+		<imagej-usage.version>0.2.0</imagej-usage.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.1.0</imagej-matlab.version>
