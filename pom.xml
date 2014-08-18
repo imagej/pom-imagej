@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>3.1</version>
+		<version>3.2</version>
 		<relativePath />
 	</parent>
 
@@ -214,13 +214,13 @@
 		<ij1-patcher.version>0.10.1</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.8.1</imagej-common.version>
+		<imagej-common.version>0.8.2</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>3.1.6</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.8.0</imagej-legacy.version>
+		<imagej-legacy.version>0.8.2</imagej-legacy.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.5.4</imagej-maven-plugin.version>
@@ -250,7 +250,7 @@
 		<imagej-ui-swing.version>0.5.1</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.6.0</imagej-updater.version>
+		<imagej-updater.version>0.6.1</imagej-updater.version>
 
 		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
 		<imagej-usage.version>0.3.0</imagej-usage.version>
