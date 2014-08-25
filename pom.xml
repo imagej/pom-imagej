@@ -205,7 +205,7 @@
 		     <properties> section. dependencies rather than hardcoding them. -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-13</imagej.version>
+		<imagej.version>2.0.0-rc-14</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.49e</imagej1.version>
