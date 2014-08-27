@@ -247,7 +247,7 @@
 		<imagej-ui-awt.version>0.1.2</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.5.2</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.6.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
 		<imagej-updater.version>0.6.1</imagej-updater.version>
