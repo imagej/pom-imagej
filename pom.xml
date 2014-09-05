@@ -229,7 +229,7 @@
 		<imagej-omero.version>0.1.0</imagej-omero.version>
 
 		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.4.3</imagej-ops.version>
+		<imagej-ops.version>0.5.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-commands.version>0.2.6</imagej-plugins-commands.version>
@@ -256,7 +256,7 @@
 		<imagej-usage.version>0.3.0</imagej-usage.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
-		<imagej-matlab.version>0.1.0</imagej-matlab.version>
+		<imagej-matlab.version>0.2.0</imagej-matlab.version>
 	</properties>
 
 	<dependencyManagement>
