@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>3.7</version>
+		<version>4.0</version>
 		<relativePath />
 	</parent>
 
@@ -261,6 +261,15 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- ImgLib2 dependencies - https://github.com/scifio/pom-imglib2 -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>pom-imglib2</artifactId>
+				<version>3.0</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
 			<!-- SCIFIO dependencies - https://github.com/scifio/pom-scifio -->
 			<dependency>
 				<groupId>io.scif</groupId>
