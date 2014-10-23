@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.imagej</groupId>
+	<artifactId>bom-imagej</artifactId>
+	<version>2.55-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>ImageJ Bill of Materials</name>
+
+	<properties>
+		<!-- If two artifacts on the classpath use two different versions of the
+		     same dependency, behavior is inconsistent at best, and often broken.
+		     The following properties facilitate consistency of dependency
+		     versions between various projects in the ImageJ software stack.
+
+		     When possible, we advise declaring your ImageJ dependencies without a
+		     <version> since the versions of core ImageJ components are managed in
+		     this POM's <dependencyManagement> section.
+
+		     If you need to override the version of a particular component, then
+		     simply override that component's version property in your POM's
+		     <properties> section. dependencies rather than hardcoding them. -->
+
+		<!-- ImageJ - https://github.com/imagej/imagej -->
+		<imagej.version>2.0.0-rc-16</imagej.version>
+
+		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
+		<imagej1.version>1.49i</imagej1.version>
+
+		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
+		<ij1-patcher.version>0.10.2</ij1-patcher.version>
+
+		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
+		<imagej-common.version>0.10.0</imagej-common.version>
+
+		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
+		<imagej-launcher.version>3.1.7</imagej-launcher.version>
+
+		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
+		<imagej-legacy.version>0.8.5</imagej-legacy.version>
+
+		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
+		<imagej-omero.version>0.1.0</imagej-omero.version>
+
+		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
+		<imagej-ops.version>0.6.0</imagej-ops.version>
+
+		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
+		<imagej-plugins-commands.version>0.3.0</imagej-plugins-commands.version>
+
+		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
+		<imagej-plugins-tools.version>0.1.1</imagej-plugins-tools.version>
+
+		<!-- ImageJ Plugins: Uploader: SSH - https://github.com/imagej/imagej-plugins-uploader-ssh -->
+		<imagej-plugins-uploader-ssh.version>0.1.1</imagej-plugins-uploader-ssh.version>
+
+		<!-- ImageJ Plugins: Uploader: WebDAV - https://github.com/imagej/imagej-plugins-uploader-webdav -->
+		<imagej-plugins-uploader-webdav.version>0.1.1</imagej-plugins-uploader-webdav.version>
+
+		<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
+		<imagej-ui-awt.version>0.1.2</imagej-ui-awt.version>
+
+		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
+		<imagej-ui-swing.version>0.8.0</imagej-ui-swing.version>
+
+		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
+		<imagej-updater.version>0.6.2</imagej-updater.version>
+
+		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
+		<imagej-usage.version>0.3.0</imagej-usage.version>
+
+		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
+		<imagej-matlab.version>0.2.0</imagej-matlab.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- ImageJ - https://github.com/imagej/imagej -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej</artifactId>
+				<version>${imagej.version}</version>
+			</dependency>
+
+			<!-- ImageJ 1.x - https://github.com/fiji/ImageJA -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>ij</artifactId>
+				<version>${imagej1.version}</version>
+			</dependency>
+
+			<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>ij1-patcher</artifactId>
+				<version>${ij1-patcher.version}</version>
+			</dependency>
+
+			<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-common</artifactId>
+				<version>${imagej-common.version}</version>
+			</dependency>
+
+			<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-launcher</artifactId>
+				<version>${imagej-launcher.version}</version>
+			</dependency>
+
+			<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-legacy</artifactId>
+				<version>${imagej-legacy.version}</version>
+			</dependency>
+
+			<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-omero</artifactId>
+				<version>${imagej-omero.version}</version>
+			</dependency>
+
+			<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-ops</artifactId>
+				<version>${imagej-ops.version}</version>
+			</dependency>
+
+			<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-plugins-commands</artifactId>
+				<version>${imagej-plugins-commands.version}</version>
+			</dependency>
+
+			<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-plugins-tools</artifactId>
+				<version>${imagej-plugins-tools.version}</version>
+			</dependency>
+
+			<!-- ImageJ Plugins: Uploader: SSH - https://github.com/imagej/imagej-plugins-uploader-ssh -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-plugins-uploader-ssh</artifactId>
+				<version>${imagej-plugins-uploader-ssh.version}</version>
+			</dependency>
+
+			<!-- ImageJ Plugins: Uploader: WebDAV - https://github.com/imagej/imagej-plugins-uploader-webdav -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-plugins-uploader-webdav</artifactId>
+				<version>${imagej-plugins-uploader-webdav.version}</version>
+			</dependency>
+
+			<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-ui-awt</artifactId>
+				<version>${imagej-ui-awt.version}</version>
+			</dependency>
+
+			<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-ui-swing</artifactId>
+				<version>${imagej-ui-swing.version}</version>
+			</dependency>
+
+			<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-updater</artifactId>
+				<version>${imagej-updater.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-updater</artifactId>
+				<version>${imagej-updater.version}</version>
+				<classifier>tests</classifier>
+			</dependency>
+
+			<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-usage</artifactId>
+				<version>${imagej-usage.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
