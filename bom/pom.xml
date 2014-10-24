@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>bom-imagej</artifactId>
-	<version>3.1-SNAPSHOT</version>
+	<version>3.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Bill of Materials</name>
@@ -203,5 +203,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 </project>

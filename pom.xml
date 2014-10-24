@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>3.1-SNAPSHOT</version>
+	<version>3.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -193,7 +193,7 @@
 
 	<properties>
 		<!-- ImageJ Bill of Materials - https://github.com/imagej/pom-imagej -->
-		<bom-imagej.version>3.1-SNAPSHOT</bom-imagej.version>
+		<bom-imagej.version>3.2-SNAPSHOT</bom-imagej.version>
 
 		<!-- ImgLib2 Bill of Materials - https://github.com/imglib2/pom-imglib2 -->
 		<bom-imglib2.version>4.1</bom-imglib2.version>
