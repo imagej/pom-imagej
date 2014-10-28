@@ -188,7 +188,7 @@
 	</scm>
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/view/ImageJ/</url>
+		<url>http://jenkins.imagej.net/</url>
 	</ciManagement>
 
 	<properties>
