@@ -207,7 +207,7 @@
 		<imagej.version>2.0.0-rc-16</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
-		<imagej1.version>1.49i</imagej1.version>
+		<imagej1.version>1.49j</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
 		<ij1-patcher.version>0.10.2</ij1-patcher.version>
@@ -304,7 +304,7 @@
 		<scifio-lifesci.version>0.5.2</scifio-lifesci.version>
 
 		<!-- SCIFIO-OME-XML - https://github.com/scifio/scifio-ome-xml -->
-		<scifio-ome-xml.version>0.9.3</scifio-ome-xml.version>
+		<scifio-ome-xml.version>0.9.4</scifio-ome-xml.version>
 
 		<!-- SCIFIO-OMERO - https://github.com/scifio/scifio-omero -->
 		<scifio-omero.version>0.5.1</scifio-omero.version>
