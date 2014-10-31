@@ -219,7 +219,7 @@
 		<imagej-launcher.version>3.1.7</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.8.5</imagej-legacy.version>
+		<imagej-legacy.version>0.9.0</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.2.0</imagej-matlab.version>
@@ -237,7 +237,7 @@
 		<imagej-plugins-commands.version>0.3.0</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-tools.version>0.1.1</imagej-plugins-tools.version>
+		<imagej-plugins-tools.version>0.2.0</imagej-plugins-tools.version>
 
 		<!-- ImageJ Plugins: Uploader: SSH - https://github.com/imagej/imagej-plugins-uploader-ssh -->
 		<imagej-plugins-uploader-ssh.version>0.1.1</imagej-plugins-uploader-ssh.version>
@@ -246,7 +246,7 @@
 		<imagej-plugins-uploader-webdav.version>0.1.1</imagej-plugins-uploader-webdav.version>
 
 		<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
-		<imagej-ui-awt.version>0.1.2</imagej-ui-awt.version>
+		<imagej-ui-awt.version>0.2.0</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
 		<imagej-ui-swing.version>0.8.0</imagej-ui-swing.version>
@@ -289,7 +289,7 @@
 		<!-- SCIFIO - https://github.com/scifio -->
 
 		<!-- SCIFIO - https://github.com/scifio/scifio -->
-		<scifio.version>0.16.5</scifio.version>
+		<scifio.version>0.17.0</scifio.version>
 
 		<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
 		<scifio-bf-compat.version>1.8.4</scifio-bf-compat.version>
