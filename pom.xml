@@ -547,6 +547,15 @@
 				<artifactId>scifio-omero</artifactId>
 				<version>${scifio-omero.version}</version>
 			</dependency>
+
+			<!-- Other managed components -->
+
+			<!-- MPI-CBG -->
+			<dependency>
+				<groupId>mpicbg</groupId>
+				<artifactId>mpicbg</artifactId>
+				<version>0.6.1</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
