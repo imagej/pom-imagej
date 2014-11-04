@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>4.2</version>
+		<version>5.0</version>
 		<relativePath />
 	</parent>
 
@@ -204,110 +204,110 @@
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-16</imagej.version>
+		<imagej.version>2.0.0-rc-17</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.49j</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.10.2</ij1-patcher.version>
+		<ij1-patcher.version>0.11.0</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.10.0</imagej-common.version>
+		<imagej-common.version>0.10.1</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
-		<imagej-launcher.version>3.1.7</imagej-launcher.version>
+		<imagej-launcher.version>3.2.0</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.9.0</imagej-legacy.version>
+		<imagej-legacy.version>0.9.1</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
-		<imagej-matlab.version>0.2.0</imagej-matlab.version>
+		<imagej-matlab.version>0.3.0</imagej-matlab.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.5.4</imagej-maven-plugin.version>
 
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
-		<imagej-omero.version>0.1.0</imagej-omero.version>
+		<imagej-omero.version>0.2.0</imagej-omero.version>
 
 		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.6.0</imagej-ops.version>
+		<imagej-ops.version>0.6.1</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-commands.version>0.3.0</imagej-plugins-commands.version>
+		<imagej-plugins-commands.version>0.3.1</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-tools.version>0.2.0</imagej-plugins-tools.version>
+		<imagej-plugins-tools.version>0.2.1</imagej-plugins-tools.version>
 
 		<!-- ImageJ Plugins: Uploader: SSH - https://github.com/imagej/imagej-plugins-uploader-ssh -->
-		<imagej-plugins-uploader-ssh.version>0.1.1</imagej-plugins-uploader-ssh.version>
+		<imagej-plugins-uploader-ssh.version>0.2.0</imagej-plugins-uploader-ssh.version>
 
 		<!-- ImageJ Plugins: Uploader: WebDAV - https://github.com/imagej/imagej-plugins-uploader-webdav -->
-		<imagej-plugins-uploader-webdav.version>0.1.1</imagej-plugins-uploader-webdav.version>
+		<imagej-plugins-uploader-webdav.version>0.2.0</imagej-plugins-uploader-webdav.version>
 
 		<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
-		<imagej-ui-awt.version>0.2.0</imagej-ui-awt.version>
+		<imagej-ui-awt.version>0.2.1</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.8.0</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.8.1</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.6.2</imagej-updater.version>
+		<imagej-updater.version>0.7.0</imagej-updater.version>
 
 		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
-		<imagej-usage.version>0.3.0</imagej-usage.version>
+		<imagej-usage.version>0.4.0</imagej-usage.version>
 
 		<!-- ImgLib2 - https://github.com/imglib -->
 
 		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
-		<imglib2.version>2.0.2</imglib2.version>
+		<imglib2.version>2.1.0</imglib2.version>
 
 		<!-- ImgLib2 Algorithms - https://github.com/imglib2/imglib2-algorithm -->
-		<imglib2-algorithm.version>0.1.0</imglib2-algorithm.version>
+		<imglib2-algorithm.version>0.1.1</imglib2-algorithm.version>
 
 		<!-- ImgLib2 Algorithms FFT - https://github.com/imglib2/imglib2-algorithm-fft -->
-		<imglib2-algorithm-fft.version>0.1.0</imglib2-algorithm-fft.version>
+		<imglib2-algorithm-fft.version>0.1.1</imglib2-algorithm-fft.version>
 
 		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib2/imglib2-algorithm-gpl -->
-		<imglib2-algorithm-gpl.version>0.1.0</imglib2-algorithm-gpl.version>
+		<imglib2-algorithm-gpl.version>0.1.1</imglib2-algorithm-gpl.version>
 
 		<!-- ImgLib2 IJ - https://github.com/imglib2/imglib2-ij -->
-		<imglib2-ij.version>2.0.0-beta-27</imglib2-ij.version>
+		<imglib2-ij.version>2.0.0-beta-28</imglib2-ij.version>
 
 		<!-- ImgLib2 RealTransform - https://github.com/imglib2/imglib2-realtransform -->
-		<imglib2-realtransform.version>2.0.0-beta-27</imglib2-realtransform.version>
+		<imglib2-realtransform.version>2.0.0-beta-28</imglib2-realtransform.version>
 
 		<!-- ImgLib2 ROI - https://github.com/imglib2/imglib2-roi -->
-		<imglib2-roi.version>0.1.0</imglib2-roi.version>
+		<imglib2-roi.version>0.2.0</imglib2-roi.version>
 
 		<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-script -->
 		<imglib2-script.version>0.1.0</imglib2-script.version>
 
 		<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
-		<imglib2-ui.version>2.0.0-beta-27</imglib2-ui.version>
+		<imglib2-ui.version>2.0.0-beta-28</imglib2-ui.version>
 
 		<!-- SCIFIO - https://github.com/scifio -->
 
 		<!-- SCIFIO - https://github.com/scifio/scifio -->
-		<scifio.version>0.17.0</scifio.version>
+		<scifio.version>0.17.1</scifio.version>
 
 		<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
-		<scifio-bf-compat.version>1.8.4</scifio-bf-compat.version>
+		<scifio-bf-compat.version>1.9.0</scifio-bf-compat.version>
 
 		<!-- SCIFIO Command Line Tools - https://github.com/scifio/scifio-cli -->
-		<scifio-cli.version>0.1.0</scifio-cli.version>
+		<scifio-cli.version>0.2.0</scifio-cli.version>
 
 		<!-- SCIFIO JAI Image I/O - https://github.com/scifio/scifio-jai-imageio -->
 		<scifio-jai-imageio.version>1.1.0</scifio-jai-imageio.version>
 
 		<!-- SCIFIO-LifeSci - https://github.com/scifio/scifio-lifesci -->
-		<scifio-lifesci.version>0.5.2</scifio-lifesci.version>
+		<scifio-lifesci.version>0.6.0</scifio-lifesci.version>
 
 		<!-- SCIFIO-OME-XML - https://github.com/scifio/scifio-ome-xml -->
-		<scifio-ome-xml.version>0.9.4</scifio-ome-xml.version>
+		<scifio-ome-xml.version>0.10.0</scifio-ome-xml.version>
 
 		<!-- SCIFIO-OMERO - https://github.com/scifio/scifio-omero -->
-		<scifio-omero.version>0.5.1</scifio-omero.version>
+		<scifio-omero.version>0.6.0</scifio-omero.version>
 	</properties>
 
 	<dependencyManagement>
