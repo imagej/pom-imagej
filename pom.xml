@@ -185,9 +185,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<tag>HEAD</tag>
 		<url>https://github.com/imagej/pom-imagej</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/imagej/pom-imagej/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/</url>
+		<url>http://jenkins.imagej.net/job/pom-imagej/</url>
 	</ciManagement>
 
 	<properties>
