@@ -267,7 +267,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImgLib2 - https://github.com/imglib -->
 
 		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
-		<imglib2.version>2.1.0</imglib2.version>
+		<imglib2.version>2.2.0</imglib2.version>
 
 		<!-- ImgLib2 Algorithms - https://github.com/imglib2/imglib2-algorithm -->
 		<imglib2-algorithm.version>0.1.1</imglib2-algorithm.version>
@@ -276,7 +276,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imglib2-algorithm-fft.version>0.1.1</imglib2-algorithm-fft.version>
 
 		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib2/imglib2-algorithm-gpl -->
-		<imglib2-algorithm-gpl.version>0.1.1</imglib2-algorithm-gpl.version>
+		<imglib2-algorithm-gpl.version>0.1.2</imglib2-algorithm-gpl.version>
 
 		<!-- ImgLib2 IJ - https://github.com/imglib2/imglib2-ij -->
 		<imglib2-ij.version>2.0.0-beta-28</imglib2-ij.version>
