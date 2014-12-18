@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>5.2.3-SNAPSHOT</version>
+	<version>5.2.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
