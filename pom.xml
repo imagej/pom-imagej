@@ -328,7 +328,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<version>${imagej.version}</version>
 			</dependency>
 
-			<!-- ImageJ 1.x - https://github.com/fiji/ImageJA -->
+			<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 			<dependency>
 				<groupId>net.imagej</groupId>
 				<artifactId>ij</artifactId>
