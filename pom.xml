@@ -354,6 +354,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<groupId>net.imagej</groupId>
 				<artifactId>imagej-launcher</artifactId>
 				<version>${imagej-launcher.version}</version>
+				<type>nar</type>
 			</dependency>
 
 			<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
