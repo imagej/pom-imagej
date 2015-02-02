@@ -304,6 +304,9 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- SCIFIO Command Line Tools - https://github.com/scifio/scifio-cli -->
 		<scifio-cli.version>0.3.0</scifio-cli.version>
 
+		<!-- SCIFIO HDF5 - https://github.com/scifio/scifio-hdf5 -->
+		<scifio-hdf5.version>0.1.0</scifio-hdf5.version>
+
 		<!-- SCIFIO JAI Image I/O - https://github.com/scifio/scifio-jai-imageio -->
 		<scifio-jai-imageio.version>1.1.0</scifio-jai-imageio.version>
 
@@ -526,6 +529,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<groupId>io.scif</groupId>
 				<artifactId>scifio-cli</artifactId>
 				<version>${scifio-cli.version}</version>
+			</dependency>
+
+			<!-- SCIFIO HDF5 plugins - https://github.com/scifio/scifio-hdf5 -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-hdf5</artifactId>
+				<version>${scifio-hdf5.version}</version>
 			</dependency>
 
 			<!-- SCIFIO JAI Image I/O - https://github.com/scifio/scifio-jai-imageio -->
