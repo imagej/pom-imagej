@@ -213,7 +213,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-26</imagej.version>
+		<imagej.version>2.0.0-rc-27</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.49p</imagej1.version>
@@ -222,13 +222,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<ij1-patcher.version>0.12.0</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.12.2</imagej-common.version>
+		<imagej-common.version>0.13.0</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>3.3.0</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.12.0</imagej-legacy.version>
+		<imagej-legacy.version>0.13.0</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.3.0</imagej-matlab.version>
@@ -261,7 +261,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-ui-swing.version>0.11.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.7.1</imagej-updater.version>
+		<imagej-updater.version>0.7.2</imagej-updater.version>
 
 		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
 		<imagej-usage.version>0.4.0</imagej-usage.version>
@@ -298,7 +298,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- SCIFIO - https://github.com/scifio -->
 
 		<!-- SCIFIO - https://github.com/scifio/scifio -->
-		<scifio.version>0.21.1</scifio.version>
+		<scifio.version>0.22.0</scifio.version>
 
 		<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
 		<scifio-bf-compat.version>1.11.0</scifio-bf-compat.version>
