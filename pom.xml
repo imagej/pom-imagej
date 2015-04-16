@@ -158,6 +158,9 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 			</roles>
 			<timezone>-5</timezone>
 		</contributor>
+		<contributor><name>Jan Eglinger</name></contributor>
+		<contributor><name>Joe Hsiao</name></contributor>
+		<contributor><name>Stephan Saalfeld</name></contributor>
 		<contributor><name>Daniel Seebacher</name></contributor>
 		<contributor><name>Jay Warrick</name></contributor>
 	</contributors>
