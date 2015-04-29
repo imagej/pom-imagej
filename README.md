@@ -1,4 +1,4 @@
-![](http://jenkins.imagej.net/job/pom-imagej/lastBuild/badge/icon)
+[![](http://jenkins.imagej.net/job/pom-imagej/lastBuild/badge/icon)](http://jenkins.imagej.net/job/pom-imagej/)
 
 Maven POM parent for [ImageJ projects](https://github.com/imagej).
 and for projects wishing to inherit the ImageJ
