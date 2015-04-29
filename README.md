@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/pom-imagej/lastBuild/badge/icon)
+
 Maven POM parent for [ImageJ projects](https://github.com/imagej).
 and for projects wishing to inherit the ImageJ
 [Bill of Materials](http://imagej.net/BOM).
