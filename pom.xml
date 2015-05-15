@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>7.1.1-SNAPSHOT</version>
+	<version>8.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -320,9 +320,6 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 
 		<!-- SCIFIO-OME-XML - https://github.com/scifio/scifio-ome-xml -->
 		<scifio-ome-xml.version>0.13.0</scifio-ome-xml.version>
-
-		<!-- SCIFIO-OMERO - https://github.com/scifio/scifio-omero -->
-		<scifio-omero.version>0.8.0</scifio-omero.version>
 	</properties>
 
 	<dependencyManagement>
