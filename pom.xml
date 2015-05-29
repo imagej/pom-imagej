@@ -225,7 +225,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<ij1-patcher.version>0.12.2</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.15.0</imagej-common.version>
+		<imagej-common.version>0.15.1</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>3.3.0</imagej-launcher.version>
