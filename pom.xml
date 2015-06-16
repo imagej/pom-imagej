@@ -231,7 +231,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-launcher.version>3.3.0</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.15.1</imagej-legacy.version>
+		<imagej-legacy.version>0.16.0</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.3.0</imagej-matlab.version>
@@ -240,10 +240,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-maven-plugin.version>0.5.4</imagej-maven-plugin.version>
 
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
-		<imagej-omero.version>0.3.0</imagej-omero.version>
+		<imagej-omero.version>0.3.2</imagej-omero.version>
 
 		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.13.0</imagej-ops.version>
+		<imagej-ops.version>0.14.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-commands.version>0.5.1</imagej-plugins-commands.version>
@@ -281,7 +281,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imglib2-algorithm-fft.version>0.1.2</imglib2-algorithm-fft.version>
 
 		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib/imglib2-algorithm-gpl -->
-		<imglib2-algorithm-gpl.version>0.1.3</imglib2-algorithm-gpl.version>
+		<imglib2-algorithm-gpl.version>0.1.4</imglib2-algorithm-gpl.version>
 
 		<!-- ImgLib2 IJ - https://github.com/imglib/imglib2-ij -->
 		<imglib2-ij.version>2.0.0-beta-30</imglib2-ij.version>
@@ -290,7 +290,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imglib2-realtransform.version>2.0.0-beta-29</imglib2-realtransform.version>
 
 		<!-- ImgLib2 ROI - https://github.com/imglib/imglib2-roi -->
-		<imglib2-roi.version>0.3.0</imglib2-roi.version>
+		<imglib2-roi.version>0.3.1</imglib2-roi.version>
 
 		<!-- ImgLib2 Scripting - https://github.com/imglib/imglib2-script -->
 		<imglib2-script.version>0.2.0</imglib2-script.version>
