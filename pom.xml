@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>8.1.1-SNAPSHOT</version>
+	<version>9.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -561,13 +561,6 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<version>${scifio-ome-xml.version}</version>
 			</dependency>
 
-			<!-- SCIFIO-OMERO - https://github.com/scifio/scifio-omero -->
-			<dependency>
-				<groupId>io.scif</groupId>
-				<artifactId>scifio-omero</artifactId>
-				<version>${scifio-omero.version}</version>
-			</dependency>
-
 			<!-- Other managed components -->
 
 			<!-- MPI-CBG -->
@@ -733,7 +726,6 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<scifio-jai-imageio.version>LATEST</scifio-jai-imageio.version>
 				<scifio-lifesci.version>LATEST</scifio-lifesci.version>
 				<scifio-ome-xml.version>LATEST</scifio-ome-xml.version>
-				<scifio-omero.version>LATEST</scifio-omero.version>
 			</properties>
 			<repositories>
 				<repository>
