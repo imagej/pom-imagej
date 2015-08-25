@@ -216,25 +216,25 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-34</imagej.version>
+		<imagej.version>2.0.0-rc-35</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
-		<imagej1.version>1.49v</imagej1.version>
+		<imagej1.version>1.50a</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
 		<ij1-patcher.version>0.12.2</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.15.1</imagej-common.version>
+		<imagej-common.version>0.16.0</imagej-common.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>4.0.0</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.17.1</imagej-legacy.version>
+		<imagej-legacy.version>0.17.2</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
-		<imagej-matlab.version>0.3.0</imagej-matlab.version>
+		<imagej-matlab.version>0.4.0</imagej-matlab.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.6.0</imagej-maven-plugin.version>
@@ -261,7 +261,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-ui-awt.version>0.3.0</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.12.0</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.13.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
 		<imagej-updater.version>0.7.6</imagej-updater.version>
@@ -272,10 +272,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImgLib2 - https://github.com/imglib -->
 
 		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
-		<imglib2.version>2.3.0</imglib2.version>
+		<imglib2.version>2.4.0</imglib2.version>
 
 		<!-- ImgLib2 Algorithms - https://github.com/imglib/imglib2-algorithm -->
-		<imglib2-algorithm.version>0.3.0</imglib2-algorithm.version>
+		<imglib2-algorithm.version>0.3.1</imglib2-algorithm.version>
 
 		<!-- ImgLib2 Algorithms FFT - https://github.com/imglib/imglib2-algorithm-fft -->
 		<imglib2-algorithm-fft.version>0.1.2</imglib2-algorithm-fft.version>
@@ -284,7 +284,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imglib2-algorithm-gpl.version>0.1.5</imglib2-algorithm-gpl.version>
 
 		<!-- ImgLib2 IJ - https://github.com/imglib/imglib2-ij -->
-		<imglib2-ij.version>2.0.0-beta-30</imglib2-ij.version>
+		<imglib2-ij.version>2.0.0-beta-31</imglib2-ij.version>
 
 		<!-- ImgLib2 RealTransform - https://github.com/imglib/imglib2-realtransform -->
 		<imglib2-realtransform.version>2.0.0-beta-29</imglib2-realtransform.version>
