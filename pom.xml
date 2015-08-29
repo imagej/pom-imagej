@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>11.1.1-SNAPSHOT</version>
+	<version>11.2.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -257,6 +257,9 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ Plugins: Uploader: WebDAV - https://github.com/imagej/imagej-plugins-uploader-webdav -->
 		<imagej-plugins-uploader-webdav.version>0.2.0</imagej-plugins-uploader-webdav.version>
 
+		<!-- ImageJ Tutorials - https://github.com/imagej/imagej-tutorials -->
+		<imagej-tutorials.version>1.0.0</imagej-tutorials.version>
+
 		<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
 		<imagej-ui-awt.version>0.3.0</imagej-ui-awt.version>
 
@@ -409,6 +412,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<groupId>net.imagej</groupId>
 				<artifactId>imagej-plugins-uploader-webdav</artifactId>
 				<version>${imagej-plugins-uploader-webdav.version}</version>
+			</dependency>
+
+			<!-- ImageJ Tutorials - https://github.com/imagej/imagej-tutorials -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-tutorials</artifactId>
+				<version>${imagej-tutorials.version}</version>
 			</dependency>
 
 			<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
@@ -643,6 +653,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-plugins-tools.version>LATEST</imagej-plugins-tools.version>
 				<imagej-plugins-uploader-ssh.version>LATEST</imagej-plugins-uploader-ssh.version>
 				<imagej-plugins-uploader-webdav.version>LATEST</imagej-plugins-uploader-webdav.version>
+				<imagej-tutorials.version>LATEST</imagej-tutorials.version>
 				<imagej-ui-awt.version>LATEST</imagej-ui-awt.version>
 				<imagej-ui-swing.version>LATEST</imagej-ui-swing.version>
 				<imagej-updater.version>LATEST</imagej-updater.version>
