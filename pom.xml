@@ -216,7 +216,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-37</imagej.version>
+		<imagej.version>2.0.0-rc-38</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.50a</imagej1.version>
@@ -234,7 +234,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-legacy.version>0.17.3</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
-		<imagej-matlab.version>0.4.1</imagej-matlab.version>
+		<imagej-matlab.version>0.5.0</imagej-matlab.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.6.0</imagej-maven-plugin.version>
