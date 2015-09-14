@@ -242,7 +242,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
 		<imagej-omero.version>0.3.2</imagej-omero.version>
 
-		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
+		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
 		<imagej-ops.version>0.19.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
@@ -379,7 +379,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<version>${imagej-omero.version}</version>
 			</dependency>
 
-			<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
+			<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
 			<dependency>
 				<groupId>net.imagej</groupId>
 				<artifactId>imagej-ops</artifactId>
