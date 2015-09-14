@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>11.4.1-SNAPSHOT</version>
+	<version>11.5.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -227,6 +227,9 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
 		<imagej-common.version>0.17.0</imagej-common.version>
 
+		<!-- ImageJ Deprecated - https://github.com/imagej/imagej-deprecated -->
+		<imagej-deprecated.version>0.1.0</imagej-deprecated.version>
+
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
 		<imagej-launcher.version>4.0.0</imagej-launcher.version>
 
@@ -355,6 +358,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<groupId>net.imagej</groupId>
 				<artifactId>imagej-common</artifactId>
 				<version>${imagej-common.version}</version>
+			</dependency>
+
+			<!-- ImageJ Deprecated - https://github.com/imagej/imagej-deprecated -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>imagej-deprecated</artifactId>
+				<version>${imagej-deprecated.version}</version>
 			</dependency>
 
 			<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
@@ -645,6 +655,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej.version>LATEST</imagej.version>
 				<ij1-patcher.version>LATEST</ij1-patcher.version>
 				<imagej-common.version>LATEST</imagej-common.version>
+				<imagej-deprecated.version>LATEST</imagej-deprecated.version>
 				<imagej-launcher.version>LATEST</imagej-launcher.version>
 				<imagej-legacy.version>LATEST</imagej-legacy.version>
 				<imagej-omero.version>LATEST</imagej-omero.version>
