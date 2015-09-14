@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>11.5.1-SNAPSHOT</version>
+	<version>12.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -216,7 +216,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-38</imagej.version>
+		<imagej.version>2.0.0-rc-39</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.50a</imagej1.version>
@@ -225,7 +225,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<ij1-patcher.version>0.12.2</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.17.0</imagej-common.version>
+		<imagej-common.version>0.18.0</imagej-common.version>
 
 		<!-- ImageJ Deprecated - https://github.com/imagej/imagej-deprecated -->
 		<imagej-deprecated.version>0.1.0</imagej-deprecated.version>
@@ -246,10 +246,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-omero.version>0.3.2</imagej-omero.version>
 
 		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.19.0</imagej-ops.version>
+		<imagej-ops.version>0.20.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-commands.version>0.5.2</imagej-plugins-commands.version>
+		<imagej-plugins-commands.version>0.6.0</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-tools.version>0.3.0</imagej-plugins-tools.version>
@@ -267,7 +267,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-ui-awt.version>0.3.0</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.14.0</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.15.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
 		<imagej-updater.version>0.7.7</imagej-updater.version>
