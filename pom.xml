@@ -255,7 +255,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-plugins-tools.version>0.3.0</imagej-plugins-tools.version>
 
 		<!-- ImageJ Plugins: Uploader: SSH - https://github.com/imagej/imagej-plugins-uploader-ssh -->
-		<imagej-plugins-uploader-ssh.version>0.2.0</imagej-plugins-uploader-ssh.version>
+		<imagej-plugins-uploader-ssh.version>0.3.0</imagej-plugins-uploader-ssh.version>
 
 		<!-- ImageJ Plugins: Uploader: WebDAV - https://github.com/imagej/imagej-plugins-uploader-webdav -->
 		<imagej-plugins-uploader-webdav.version>0.2.0</imagej-plugins-uploader-webdav.version>
