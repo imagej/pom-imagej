@@ -85,11 +85,18 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 
 	<mailingLists>
 		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+		<mailingList>
 			<name>ImageJ</name>
 			<subscribe>http://imagej.net/list.html</subscribe>
 			<unsubscribe>http://imagej.net/list.html</unsubscribe>
 			<post>imagej@list.nih.gov</post>
 			<archive>http://list.nih.gov/archives/imagej.html</archive>
+			<otherArchives>
+				<otherArchive>http://imagej.1557.x6.nabble.com/</otherArchive>
+			</otherArchives>
 		</mailingList>
 	</mailingLists>
 
