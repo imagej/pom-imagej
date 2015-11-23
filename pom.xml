@@ -247,6 +247,9 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 
 		<!-- Third party components -->
 
+		<!-- Mines JTK - https://github.com/dhale/jtk -->
+		<mines-jtk.version>20151123</mines-jtk.version>
+
 		<!-- MPI-CBG - https://github.com/axtimwalde/mpicbg -->
 		<mpicbg.version>1.0.2</mpicbg.version>
 	</properties>
@@ -505,6 +508,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 			</dependency>
 
 			<!-- Third party components -->
+
+			<!-- Mines JTK - https://github.com/dhale/jtk -->
+			<dependency>
+				<groupId>edu.mines</groupId>
+				<artifactId>mines-jtk</artifactId>
+				<version>${mines-jtk.version}</version>
+			</dependency>
 
 			<!-- MPI-CBG - https://github.com/axtimwalde/mpicbg -->
 			<dependency>
