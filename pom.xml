@@ -244,6 +244,11 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 
 		<!-- SCIFIO-OME-XML - https://github.com/scifio/scifio-ome-xml -->
 		<scifio-ome-xml.version>0.13.0</scifio-ome-xml.version>
+
+		<!-- Third party components -->
+
+		<!-- MPI-CBG - https://github.com/axtimwalde/mpicbg -->
+		<mpicbg.version>1.0.2</mpicbg.version>
 	</properties>
 
 	<dependencyManagement>
@@ -499,13 +504,18 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<version>${scifio-ome-xml.version}</version>
 			</dependency>
 
-			<!-- Other managed components -->
+			<!-- Third party components -->
 
-			<!-- MPI-CBG -->
+			<!-- MPI-CBG - https://github.com/axtimwalde/mpicbg -->
 			<dependency>
 				<groupId>mpicbg</groupId>
 				<artifactId>mpicbg</artifactId>
-				<version>0.6.1</version>
+				<version>${mpicbg.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>mpicbg</groupId>
+				<artifactId>mpicbg_</artifactId>
+				<version>${mpicbg.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
