@@ -143,7 +143,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<ij1-patcher.version>0.12.3</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.18.1</imagej-common.version>
+		<imagej-common.version>0.19.0</imagej-common.version>
 
 		<!-- ImageJ Deprecated - https://github.com/imagej/imagej-deprecated -->
 		<imagej-deprecated.version>0.1.1</imagej-deprecated.version>
@@ -164,7 +164,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-omero.version>0.3.3</imagej-omero.version>
 
 		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.23.0</imagej-ops.version>
+		<imagej-ops.version>0.24.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-commands.version>0.6.0</imagej-plugins-commands.version>
@@ -225,7 +225,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- SCIFIO - https://github.com/scifio -->
 
 		<!-- SCIFIO - https://github.com/scifio/scifio -->
-		<scifio.version>0.25.2</scifio.version>
+		<scifio.version>0.25.3</scifio.version>
 
 		<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
 		<scifio-bf-compat.version>2.0.0</scifio-bf-compat.version>
