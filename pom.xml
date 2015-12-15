@@ -251,7 +251,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<mines-jtk.version>20151125</mines-jtk.version>
 
 		<!-- MPI-CBG - https://github.com/axtimwalde/mpicbg -->
-		<mpicbg.version>1.0.2</mpicbg.version>
+		<mpicbg.version>1.1.1</mpicbg.version>
 	</properties>
 
 	<dependencyManagement>
