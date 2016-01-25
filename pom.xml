@@ -116,6 +116,8 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 	</ciManagement>
 
 	<properties>
+		<scijava.jvm.version>1.8</scijava.jvm.version>
+
 		<!--
 		If two artifacts on the classpath use two different versions of the
 		same dependency, behavior is inconsistent at best, and often broken.
