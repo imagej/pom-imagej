@@ -187,7 +187,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-ui-awt.version>0.3.0</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.17.3</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.18.0</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
 		<imagej-updater.version>0.7.9</imagej-updater.version>
