@@ -264,6 +264,12 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<groupId>net.imagej</groupId>
 				<artifactId>ij</artifactId>
 				<version>${imagej1.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>com.sun</groupId>
+						<artifactId>tools</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 
 			<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
