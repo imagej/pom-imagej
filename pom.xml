@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>15.2.1-SNAPSHOT</version>
+	<version>15.3.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -143,10 +143,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-deprecated.version>0.1.1</imagej-deprecated.version>
 
 		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
-		<imagej-launcher.version>4.0.3</imagej-launcher.version>
+		<imagej-launcher.version>4.0.4</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.19.2</imagej-legacy.version>
+		<imagej-legacy.version>0.20.0</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.7.0</imagej-matlab.version>
@@ -158,7 +158,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-omero.version>0.3.3</imagej-omero.version>
 
 		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.27.0</imagej-ops.version>
+		<imagej-ops.version>0.28.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-commands.version>0.6.0</imagej-plugins-commands.version>
