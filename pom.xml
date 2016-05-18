@@ -187,6 +187,9 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
 		<imagej-usage.version>0.4.0</imagej-usage.version>
 
+		<!-- Op Finder - https://github.com/imagej/op-finder -->
+		<op-finder.version>0.1.0</op-finder.version>
+
 		<!-- ImgLib2 - https://github.com/imglib -->
 
 		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
@@ -389,6 +392,13 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 				<groupId>net.imagej</groupId>
 				<artifactId>imagej-usage</artifactId>
 				<version>${imagej-usage.version}</version>
+			</dependency>
+
+			<!-- Op-Finder - https://github.com/imagej/op-finder -->
+			<dependency>
+				<groupId>net.imagej</groupId>
+				<artifactId>op-finder</artifactId>
+				<version>${op-finder.version}</version>
 			</dependency>
 
 			<!-- ImgLib2 - https://github.com/imglib -->
@@ -607,6 +617,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 				<imagej-ui-swing.version>LATEST</imagej-ui-swing.version>
 				<imagej-updater.version>LATEST</imagej-updater.version>
 				<imagej-usage.version>LATEST</imagej-usage.version>
+				<op-finder.version>LATEST</op-finder.version>
 			</properties>
 			<repositories>
 				<repository>
