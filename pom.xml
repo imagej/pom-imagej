@@ -128,7 +128,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<ij1-patcher.version>0.12.3</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.21.1</imagej-common.version>
+		<imagej-common.version>0.22.0</imagej-common.version>
 
 		<!-- ImageJ Deprecated - https://github.com/imagej/imagej-deprecated -->
 		<imagej-deprecated.version>0.1.1</imagej-deprecated.version>
@@ -137,10 +137,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-launcher.version>4.0.5</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.21.0</imagej-legacy.version>
+		<imagej-legacy.version>0.22.0</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
-		<imagej-matlab.version>0.7.0</imagej-matlab.version>
+		<imagej-matlab.version>0.7.1</imagej-matlab.version>
 
 		<!-- ImageJ Maven Plugin - https://github.com/imagej/imagej-maven-plugin -->
 		<imagej-maven-plugin.version>0.6.0</imagej-maven-plugin.version>
@@ -149,10 +149,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-omero.version>0.3.3</imagej-omero.version>
 
 		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
-		<imagej-ops.version>0.31.0</imagej-ops.version>
+		<imagej-ops.version>0.32.0</imagej-ops.version>
 
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
-		<imagej-plugins-commands.version>0.6.0</imagej-plugins-commands.version>
+		<imagej-plugins-commands.version>0.7.0</imagej-plugins-commands.version>
 
 		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
 		<imagej-plugins-tools.version>0.3.0</imagej-plugins-tools.version>
@@ -187,7 +187,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imglib2.version>3.2.0</imglib2.version>
 
 		<!-- ImgLib2 Algorithms - https://github.com/imglib/imglib2-algorithm -->
-		<imglib2-algorithm.version>0.5.0</imglib2-algorithm.version>
+		<imglib2-algorithm.version>0.6.0</imglib2-algorithm.version>
 
 		<!-- ImgLib2 Algorithms FFT - https://github.com/imglib/imglib2-algorithm-fft -->
 		<imglib2-algorithm-fft.version>0.1.2</imglib2-algorithm-fft.version>
@@ -199,7 +199,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imglib2-ij.version>2.0.0-beta-34</imglib2-ij.version>
 
 		<!-- ImgLib2 RealTransform - https://github.com/imglib/imglib2-realtransform -->
-		<imglib2-realtransform.version>2.0.0-beta-31</imglib2-realtransform.version>
+		<imglib2-realtransform.version>2.0.0-beta-32</imglib2-realtransform.version>
 
 		<!-- ImgLib2 ROI - https://github.com/imglib/imglib2-roi -->
 		<imglib2-roi.version>0.4.3</imglib2-roi.version>
@@ -213,7 +213,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<!-- SCIFIO - https://github.com/scifio -->
 
 		<!-- SCIFIO - https://github.com/scifio/scifio -->
-		<scifio.version>0.27.3</scifio.version>
+		<scifio.version>0.28.0</scifio.version>
 
 		<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
 		<scifio-bf-compat.version>2.0.0</scifio-bf-compat.version>
@@ -231,7 +231,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<scifio-lifesci.version>0.7.0</scifio-lifesci.version>
 
 		<!-- SCIFIO-OME-XML - https://github.com/scifio/scifio-ome-xml -->
-		<scifio-ome-xml.version>0.13.0</scifio-ome-xml.version>
+		<scifio-ome-xml.version>0.14.0</scifio-ome-xml.version>
 
 		<!-- Third party components -->
 
