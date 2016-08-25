@@ -123,10 +123,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej1.version>1.51d</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
-		<ij1-patcher.version>0.12.4</ij1-patcher.version>
+		<ij1-patcher.version>0.12.5</ij1-patcher.version>
 
 		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
-		<imagej-common.version>0.22.0</imagej-common.version>
+		<imagej-common.version>0.23.0</imagej-common.version>
 
 		<!-- ImageJ Deprecated - https://github.com/imagej/imagej-deprecated -->
 		<imagej-deprecated.version>0.1.1</imagej-deprecated.version>
@@ -135,7 +135,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-launcher.version>4.0.5</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.22.0</imagej-legacy.version>
+		<imagej-legacy.version>0.22.1</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.7.1</imagej-matlab.version>
@@ -168,10 +168,10 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej-ui-awt.version>0.3.0</imagej-ui-awt.version>
 
 		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
-		<imagej-ui-swing.version>0.21.0</imagej-ui-swing.version>
+		<imagej-ui-swing.version>0.21.1</imagej-ui-swing.version>
 
 		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
-		<imagej-updater.version>0.8.0</imagej-updater.version>
+		<imagej-updater.version>0.8.1</imagej-updater.version>
 
 		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
 		<imagej-usage.version>0.4.0</imagej-usage.version>
