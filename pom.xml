@@ -120,7 +120,7 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 		<imagej.version>2.0.0-rc-52</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
-		<imagej1.version>1.51d</imagej1.version>
+		<imagej1.version>1.51f</imagej1.version>
 
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
 		<ij1-patcher.version>0.12.5</ij1-patcher.version>
