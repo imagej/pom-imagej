@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>11.1.2</version>
+		<version>11.2.1</version>
 		<relativePath />
 	</parent>
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>16.2.2-SNAPSHOT</version>
+	<version>16.3.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -99,6 +99,12 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 	</ciManagement>
 
 	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
+Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
+		<license.projectName>ImageJ software for multidimensional image processing and analysis.</license.projectName>
+
 		<!--
 		If two artifacts on the classpath use two different versions of the
 		same dependency, behavior is inconsistent at best, and often broken.
@@ -539,17 +545,6 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 							<groupIds>org.scijava,io.scif,net.imagej,net.imglib2</groupIds>
 						</requireReproducibleBuilds>
 					</rules>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<licenseName>bsd_2</licenseName>
-					<organizationName>Board of Regents of the University of
-Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
-Institute of Molecular Cell Biology and Genetics.</organizationName>
-					<projectName>ImageJ software for multidimensional image processing and analysis.</projectName>
 				</configuration>
 			</plugin>
 
