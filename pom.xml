@@ -99,6 +99,8 @@ Projects wishing to use pom-imagej as a parent project need to override the &lt;
 	</ciManagement>
 
 	<properties>
+		<package-name>net.imagej</package-name>
+
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>Board of Regents of the University of
 Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
