@@ -125,7 +125,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-53</imagej.version>
+		<imagej.version>2.0.0-rc-54</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.51f</imagej1.version>
@@ -143,7 +143,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<imagej-launcher.version>4.0.5</imagej-launcher.version>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-		<imagej-legacy.version>0.23.0</imagej-legacy.version>
+		<imagej-legacy.version>0.23.1</imagej-legacy.version>
 
 		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
 		<imagej-matlab.version>0.7.1</imagej-matlab.version>
