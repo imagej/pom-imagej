@@ -125,7 +125,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.0.0-rc-54</imagej.version>
+		<imagej.version>2.0.0-rc-55</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.51f</imagej1.version>
