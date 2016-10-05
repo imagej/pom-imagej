@@ -219,7 +219,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<!-- SCIFIO - https://github.com/scifio -->
 
 		<!-- SCIFIO - https://github.com/scifio/scifio -->
-		<scifio.version>0.28.2</scifio.version>
+		<scifio.version>0.29.0</scifio.version>
 
 		<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
 		<scifio-bf-compat.version>2.0.0</scifio-bf-compat.version>
