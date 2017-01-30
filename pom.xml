@@ -11,7 +11,7 @@
 
 	<groupId>net.imagej</groupId>
 	<artifactId>pom-imagej</artifactId>
-	<version>17.0.0-SNAPSHOT</version>
+	<version>17.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>ImageJ Projects</name>
@@ -91,7 +91,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/imagej/pom-imagej</connection>
 		<developerConnection>scm:git:git@github.com:imagej/pom-imagej</developerConnection>
-		<tag>HEAD</tag>
+		<tag>pom-imagej-17.0.0</tag>
 		<url>https://github.com/imagej/pom-imagej</url>
 	</scm>
 	<issueManagement>
